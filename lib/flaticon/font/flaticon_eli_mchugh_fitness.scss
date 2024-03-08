@@ -1,0 +1,57 @@
+$flaticon_eli_mchugh_fitness-font: "flaticon_eli_mchugh_fitness";
+
+@font-face {
+    font-family: $flaticon_eli_mchugh_fitness-font;
+    src: url("./flaticon_eli_mchugh_fitness.woff2?f67ea65ca7c88ebd8e03c4056e7175e9") format("woff2"),
+url("./flaticon_eli_mchugh_fitness.woff?f67ea65ca7c88ebd8e03c4056e7175e9") format("woff"),
+url("./flaticon_eli_mchugh_fitness.eot?f67ea65ca7c88ebd8e03c4056e7175e9#iefix") format("embedded-opentype"),
+url("./flaticon_eli_mchugh_fitness.ttf?f67ea65ca7c88ebd8e03c4056e7175e9") format("truetype"),
+url("./flaticon_eli_mchugh_fitness.svg?f67ea65ca7c88ebd8e03c4056e7175e9#flaticon_eli_mchugh_fitness") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_eli_mchugh_fitness !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_eli_mchugh_fitness-map: (
+    "happiness": "\f101",
+    "thumbs-up": "\f102",
+    "bodybuilding": "\f103",
+    "training": "\f104",
+    "weightlifting": "\f105",
+    "apple": "\f106",
+    "barbell": "\f107",
+    "support": "\f108",
+);
+
+.flaticon-happiness:before {
+    content: map-get($flaticon_eli_mchugh_fitness-map, "happiness");
+}
+.flaticon-thumbs-up:before {
+    content: map-get($flaticon_eli_mchugh_fitness-map, "thumbs-up");
+}
+.flaticon-bodybuilding:before {
+    content: map-get($flaticon_eli_mchugh_fitness-map, "bodybuilding");
+}
+.flaticon-training:before {
+    content: map-get($flaticon_eli_mchugh_fitness-map, "training");
+}
+.flaticon-weightlifting:before {
+    content: map-get($flaticon_eli_mchugh_fitness-map, "weightlifting");
+}
+.flaticon-apple:before {
+    content: map-get($flaticon_eli_mchugh_fitness-map, "apple");
+}
+.flaticon-barbell:before {
+    content: map-get($flaticon_eli_mchugh_fitness-map, "barbell");
+}
+.flaticon-support:before {
+    content: map-get($flaticon_eli_mchugh_fitness-map, "support");
+}
