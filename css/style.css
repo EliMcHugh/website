@@ -5384,6 +5384,9 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   color: #666;
 }
+.darkened-banner {
+  opacity: 0.45;
+}
 .carousel {
   position: relative;
 }
