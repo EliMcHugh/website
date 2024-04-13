@@ -6488,6 +6488,15 @@ button.bg-dark:hover {
 .float-none {
   float: none !important;
 }
+@media (max-width: 576px) {
+  .darkened-banner.banner-image {
+    width: 150% !important;
+    margin-left: -25%;
+  }
+  .banner-text {
+    font-size: calc(1.3rem + 0.4vw) !important;
+  }
+}
 @media (min-width: 576px) {
   .float-sm-left {
     float: left !important;
